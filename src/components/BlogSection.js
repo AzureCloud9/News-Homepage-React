@@ -23,8 +23,8 @@ export default function BlogSection () {
                 </div>
                 <div className='blogInfo'>
                     <h1>01</h1>
-                    <h2>Reviving Retro PCs</h2>
-                    <p>What happens when old PCs are given modern upgrades?</p>
+                    <h2>Top 10 Laptops of 2022</h2>
+                    <p>Our best picks for various needs and budgets.</p>
                 </div>
             </div>
 
@@ -34,8 +34,8 @@ export default function BlogSection () {
                 </div>
                 <div className='blogInfo'>
                     <h1>01</h1>
-                    <h2>Reviving Retro PCs</h2>
-                    <p>What happens when old PCs are given modern upgrades?</p>
+                    <h2>The Growth of Gaming</h2>
+                    <p>How the pandemic has sparked fresh opportunities.</p>
                 </div>
             </div>
         </div>
