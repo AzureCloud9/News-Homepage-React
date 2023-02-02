@@ -1,3 +1,23 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('./components/assets/fonts/static/Inter-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter-bold';
+  src: url('./components/assets/fonts/static/Inter-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Inter-bolder';
+  src: url('./components/assets/fonts/static/Inter-ExtraBold.ttf') format('truetype');
+  font-weight: bolder;
+}
+
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -64,7 +84,7 @@
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
-  .img1 {
+.img1 {
     width: 44.98px;
     height: 28px;
     margin-left: 16px;
@@ -127,7 +147,126 @@ a {
 .mainSection {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  margin-left: 16px;
   width: 100vw;
+}
+
+.mainHeader {
+  margin-top: 24px;
+}
+
+.mainHeader h1 {
+  font-family: Inter-bold;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: left;
+
+}
+
+.mainHeader p {
+  margin-top: 16px;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #5E607A;
+
+}
+
+.btn1 {
+  background-color: #F15D51;
+  width: 185px;
+  height: 48px;
+  margin-top: 24px;
+  display: grid;
+  place-items: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 4.375px;
+  text-align: left;
+  color: #FFFDFA; 
+  margin-bottom: 64px;
+}
+
+.newSection {
+  width: 343px;
+  height: fit-content;
+  background-color: #00001A;
+  margin-left: 16px;
+  margin-bottom: 64px
+}
+
+.newTitle {
+  margin-left: 21px;
+  padding-top: 24px;
+  margin-bottom: 4px;
+  color: #E9AA52;
+
+
+}
+
+.box {
+  margin-left: 21px;
+  height: fit-content;
+}
+
+.box h1 {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 800;
+  color: #FFFDFA;
+  margin-bottom: 6px;
+  margin-top: 31px;
+}
+
+.box p {
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 100;
+  text-align: left;
+  color: #C5C6CE;
+  border-bottom: 1px solid white;
+  padding-bottom: 29px;
+}
+.special-style p {
+  border-bottom: #00001A;
+}
+
+.blogBox {
+  display: flex;
+  margin-left: 16px;
+  margin-bottom: 32px;
+  
+}
+
+.imgBlog {
+  width: 100px;
+  height: 130px;
+  margin-right: 24px;
+}
+
+.blogInfo h1 {
+  font-family: Inter-bold;
+  font-size: 32px;
+  font-weight: 700;
+  color: #C5C6CE;
+  margin-bottom: 12px;
+}
+
+.blogInfo h2 {
+  color: #00001A;
+  margin-bottom: 9px;
+}
+
+.blogInfo p {
+  color: #5E607A;
 }
 
 }
