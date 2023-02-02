@@ -239,10 +239,15 @@ a {
   border-bottom: #00001A;
 }
 
+.blogSection {
+  margin-bottom: 80px;
+}
+
 .blogBox {
   display: flex;
   margin-left: 16px;
   margin-bottom: 32px;
+
   
 }
 
