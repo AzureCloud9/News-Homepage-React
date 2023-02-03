@@ -9,8 +9,10 @@ function App() {
     <div className="App">
       <div className='pageLayout'>
         <MenuLogo/>
-        <MainSection/>
-        <NewSection/>
+        <div className='MiddleSection'>
+          <MainSection/>
+          <NewSection/>
+        </div>
         <BlogSection/>
       </div>
     </div>

@@ -22,7 +22,7 @@ export default function BlogSection () {
                     <img className='imgBlog' src={img2} alt=""/>
                 </div>
                 <div className='blogInfo'>
-                    <h1>01</h1>
+                    <h1>02</h1>
                     <h2>Top 10 Laptops of 2022</h2>
                     <p>Our best picks for various needs and budgets.</p>
                 </div>
@@ -33,7 +33,7 @@ export default function BlogSection () {
                     <img className='imgBlog' src={img3} alt=""/>
                 </div>
                 <div className='blogInfo'>
-                    <h1>01</h1>
+                    <h1>03</h1>
                     <h2>The Growth of Gaming</h2>
                     <p>How the pandemic has sparked fresh opportunities.</p>
                 </div>
