@@ -97,18 +97,23 @@
 }
 
 .menuBackground {
+    display: block;
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.7);
     top: 0;
-    height: 100vh;
-    width: 100vw;
 }
 
 .menuList {
   background-color: white;
+  border-left:2px solid #00001A;
   margin-left: 119px;
   height: 100vh;
-  width: 100vw;
+  width: 70vw;
+  
+}
+
+.no-scroll {
+  overflow: hidden;
+  position: fixed;
 }
 
 .menuClose {
@@ -199,7 +204,6 @@ a {
   width: 343px;
   height: fit-content;
   background-color: #00001A;
-  margin-left: 16px;
   margin-bottom: 64px
 }
 

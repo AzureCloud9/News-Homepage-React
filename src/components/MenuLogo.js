@@ -1,14 +1,21 @@
 import logo from './assets/images/logo.svg'
 import closeMenu from './assets/images/icon-menu-close.svg'
 import menuMobile from './assets/images/icon-menu.svg'
-import React, { useState } from 'react';
-
+import React, { useState, useEffect } from 'react';
 
 
 
 
 export default function MenuLogo () {
 const [exit, setExit] = useState(false)
+useEffect(()=> {
+    if(exit){
+        document.body.classList.add("no-scroll");
+    } else {
+        document.body.classList.remove("no-scroll");
+    }
+}, [exit]);
+
 
 function handleClick () {
     setExit(!exit)
