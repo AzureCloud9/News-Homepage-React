@@ -148,8 +148,8 @@ a {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin-left: 16px;
-  width: 100vw;
+  align-items: center;
+  width: 100%;
 }
 
 .mainHeader {
